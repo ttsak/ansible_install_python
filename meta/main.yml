@@ -21,7 +21,7 @@ galaxy_info:
   #
   platforms:
   - name: EL
-  #  versions:
+    versions:
     - all
   #  - 5
   #  - 6
@@ -31,7 +31,7 @@ galaxy_info:
   #  - all
   #  - any
   - name: Fedora
-  #  versions:
+    versions:
     - all
   #  - 16
   #  - 17
@@ -74,7 +74,7 @@ galaxy_info:
   #  - 9.1
   #  - 9.2
   - name: Ubuntu
-  #  versions:
+    versions:
     - all
   #  - lucid
   #  - maverick
@@ -101,7 +101,7 @@ galaxy_info:
   #  - all
   #  - any
   - name: Debian
-  #  versions:
+    versions:
     - all
   #  - etch
   #  - jessie
