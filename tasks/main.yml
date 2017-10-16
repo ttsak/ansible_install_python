@@ -1,0 +1,10 @@
+# We run this Role with Fact Gathering disabled so we must do everything manually
+# This is because Fact Gathering requires python to work!
+# gather_facts: False
+
+- name: Make sure python is installed
+  raw: >
+    command -v python ||
+    (test -e /etc/redhat-release && yum install -y python) ||
+    (test -e /etc/debian_version && apt-get install -y python-minimal)
+  changed_when: false
